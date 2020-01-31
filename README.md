@@ -3,6 +3,9 @@
 
 A command line API mashup of GitHub and Twitter APIs to search for projects on GitHub, then for each project search for tweets that mention it and output a summary of each project with a short list of recent tweets, in JSON format
 
+## Installation
+
+    npm install -g @talalyyousif/reactive 
 
 ## Configuring Twitter consumer key and secret
 This can be done by any of the following:
