@@ -1,0 +1,46 @@
+{
+  "name": "@talalyyousif/reactive",
+  "version": "1.0.0",
+  "description": "Tweets about \"Reactive\" projects",
+  "bin": {
+    "reactive": "./bin/reactive.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "nyc": {
+    "all": true,
+    "check-coverage": true
+  },
+  "scripts": {
+    "test": "nyc mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalalYousif/ReactiveTweets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TalalYousif/ReactiveTweets/issues"
+  },
+  "homepage": "https://github.com/TalalYousif/ReactiveTweets#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
+    "sinon": "^8.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "oauth-1.0a": "^2.2.6"
+  }
+}
