@@ -10,7 +10,12 @@
   },
   "nyc": {
     "all": true,
-    "check-coverage": true
+    "check-coverage": true,
+    "exclude":[
+      "**/bin/**",
+      ".eslintrc.js",
+      "app.config.js"
+    ]
   },
   "scripts": {
     "test": "nyc mocha --recursive"
