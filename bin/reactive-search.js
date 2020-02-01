@@ -3,7 +3,6 @@ const search = require('../commands/search');
 const twitterCredentials = require('../app.config.js');
 const chalk = require('chalk');
 
-
 // default project name used for search in case the user doen't provide any
 const defaultProjectName = 'Reactive';
 
@@ -17,7 +16,6 @@ program.arguments('[project]')
           .catch((message) => {
             // Using chalk library to give the error a nice red color and suppress stack trace
             console.error(chalk.redBright(message));
-            process.exitCode = 1;
           });
     });
 

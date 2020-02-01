@@ -1,6 +1,6 @@
 {
   "name": "@talalyyousif/reactive",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tweets about \"Reactive\" projects",
   "bin": {
     "reactive": "./bin/reactive.js"
@@ -11,7 +11,7 @@
   "nyc": {
     "all": true,
     "check-coverage": true,
-    "exclude":[
+    "exclude": [
       "**/bin/**",
       ".eslintrc.js",
       "app.config.js"
