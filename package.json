@@ -43,7 +43,7 @@
     "sinon": "^8.1.1"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chalk": "^3.0.0",
     "commander": "^4.1.0",
     "oauth-1.0a": "^2.2.6"
